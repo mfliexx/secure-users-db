@@ -13,18 +13,16 @@ Users can be added and their passwords are stored securely in the database. Incl
 ## Setup
 
 1. Clone this repository:
-```bash
 git clone https://github.com/mfliexx/secure-users-db.git
 cd secure-users-db
 
-2. Create a .env file and add your database credentials:
+2. Create a `.env` file and add your database credentials:
 DB_NAME=postgres
 DB_USER=postgres
 DB_PASS=your_password
 
-
-3. Install dependencies:
+4. Install dependencies:
 pip install -r requirements.txt
 
-4. Run the app:
+5. Run the app:
 python user_management.py
